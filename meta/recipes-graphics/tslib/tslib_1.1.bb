@@ -13,6 +13,8 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=f30a9716ef3762e3467a2f62bf790f0a"
 SRC_URI = "https://github.com/kergoth/tslib/releases/download/${PV}/tslib-${PV}.tar.xz;downloadfilename=tslib-${PV}.tar.xz \
            file://ts.conf \
            file://tslib.sh \
+           file://add-skip-module.patch \
+           file://add-median-module.patch \
 "
 
 SRC_URI[md5sum] = "14771f8607b341bb4b297819d37e837d"
